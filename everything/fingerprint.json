@@ -1,0 +1,11 @@
+{
+    "status_code": 200,
+    "headers": {
+        "type": "string",
+        "rule": "Server: Everything HTTP Server"
+    },
+    "body": {
+        "type": "string",
+        "rule": "<title>Everything</title>"
+    }
+}

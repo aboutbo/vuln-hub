@@ -1,0 +1,17 @@
+{
+    "status_code": 200,
+    "headers": {
+        "1":{
+            "type": "string",
+            "rule": "Server: Kong"
+        },
+        "2":{
+            "type": "regex",
+            "rule": "X-Kong-*"
+        }
+    },
+    "body": {
+        "type": "string",
+        "rule": "Welcome to kong"
+    }
+}

